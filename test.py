@@ -119,6 +119,6 @@ class MyBot:
     def run(self):
         self.bot.run(self.TOKEN)
 
-
+# it's main
 if __name__ == '__main__':
     MyBot().run()
