@@ -19,7 +19,7 @@ class MyBot:
 
     def __init__(self) -> None:
         super().__init__()
-        self.TOKEN = 'Njg5MTA5MzUxODkzNDM0Mzky.XnOZ1A.rhwb1a1xOm2iadWI0gbDouHfvHM'
+        self.TOKEN = 'Njg5MTA5MzUxODkzNDM0Mzky.XnOfRQ.U_HgyUnAc6BbsBeWl4mbnFzdGAo'
 
         self.bot = commands.Bot(command_prefix='!')
 
