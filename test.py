@@ -1,4 +1,5 @@
 import re
+import Token
 from typing import AnyStr, Dict, Union, Optional
 
 import discord
@@ -19,7 +20,7 @@ class MyBot:
 
     def __init__(self) -> None:
         super().__init__()
-        self.TOKEN = 'Njg5MTA5MzUxODkzNDM0Mzky.XnOfRQ.U_HgyUnAc6BbsBeWl4mbnFzdGAo'
+        self.TOKEN = Token.token
 
         self.bot = commands.Bot(command_prefix='!')
 
